@@ -1,0 +1,27 @@
+.offers{
+    width: 100%;
+    height: 90vh;
+    padding-top: 10rem;
+    border: 0;
+    background-color:whitesmoke;
+    
+}
+.card-wrapper{
+    display: flex;
+}
+.card-temp{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.o-text h1{
+    text-align: center;
+    font-size: 30px;
+}
+.o-text p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 5rem;
+}

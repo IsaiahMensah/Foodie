@@ -1,0 +1,83 @@
+.n-wrapper{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed; 
+    top: 0;
+    left: 0;
+    
+}
+
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+
+}
+.m-logo{
+    line-height: 40px;
+}
+.n-left .logo{
+    font-size: 50px;
+    color: orangered;
+    margin-left: 4rem;
+}
+.n-name{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 10px;
+    font-style: italic;
+    font-weight: 900;
+    padding-right: 1rem
+}
+.n-name strong{
+    color: orangered;
+}
+.n-right{
+    display: flex;
+    flex: 0.4;
+    align-items: center;
+    justify-content:space-between;
+    font-weight: 400;
+}
+.n-list{
+    flex: 1;
+}
+.n-list>ul{
+    display: flex;
+    gap: 1rem;
+    /* margin-right: 4rem; */
+    list-style: none;
+    font-weight: 900;
+    
+}
+.n-list>ul li:hover{
+    cursor: pointer;
+    color: orangered;
+    text-decoration: underline 5px orangered;
+}
+.n-list  ul li:active{
+    text-decoration: underline 5px orangered;
+}
+.book-btn{
+    /* float: right;  */
+}
+.n-button{
+      text-decoration: underline 5px orangered;
+      outline: none;
+      background-color: transparent;
+      border: none;
+      color:black;
+      font-weight: 800;
+}
+.call-btn{
+    font-size: 17px;
+    border-radius: 34px;
+    background-color: orangered;
+    border: 0;
+    height: 3rem;
+    color: white;
+    margin-left: 30px;
+}
