@@ -6,6 +6,7 @@ import Card from "../card/Card"
 function Offer (){
     return(
         <div className='offers'>
+            
             <div className='o-text'>
             <h1>Best Way To Eat Healthy Food</h1>
             <p>Making Reservations At Delicious Restaurants is East and takes just a couple of minutes.</p>

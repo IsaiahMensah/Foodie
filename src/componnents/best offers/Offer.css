@@ -13,7 +13,8 @@
     height: 60vh;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
 }
 .o-text h1{
     text-align: center;
