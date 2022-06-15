@@ -3,6 +3,7 @@ import { GiMeal } from "react-icons/gi";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import logo from "../../images/pngwing.com (2).png"
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -29,7 +30,7 @@ function Navbar() {
     <div className={navbar ? "nav_active" : "n-wrapper"}>
       <div className="n-left">
         <div className="m-logo">
-          <GiMeal className="logo" />
+          <img src={logo} alt="" />
           <span className="n-name">
             Foodie<strong>.</strong>
           </span>

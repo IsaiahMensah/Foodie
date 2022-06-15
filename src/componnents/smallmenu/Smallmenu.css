@@ -1,0 +1,13 @@
+.small-nav{
+    height: 4rem;
+    width: 100%;
+    background-color:rgb(89, 112, 75);
+    display: flex;
+    margin-top: 4rem;
+}
+.small-nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+}

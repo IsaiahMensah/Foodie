@@ -8,6 +8,7 @@
     flex: 1;
     align-items: center;
     display: flex;
+    
     gap: 2rem;
     background-color:whitesmoke;
     /* background-image: linear-gradient(to right , white 60% , rgb(215, 222, 167) 90%); */
@@ -15,21 +16,28 @@
 .h-right{
     display: flex;
     flex: 1;
-    background-image: url(../../images/meat-1155132.jpg);
     
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
     width: 100%;
     /* border-top-left-radius: 40%; */
-    border-bottom-left-radius: 100%;
+    
     /* background-color: whitesmoke; */
    
 }
+.image{
+    background-image: url(../../images/meat-1155132.jpg);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
 .text-left{
      text-align: center;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
+    margin-top: 8rem;
     
 }
 .text-left h1{
@@ -76,4 +84,63 @@
 .h-btn .watch-btn button label{
     font-size: 17px;
     line-height: 3rem;
+}
+.png img {
+    height: 200px;
+    width: 400px;
+    margin-top: 3rem;
+    padding-left: 20rem;
+}
+.r-fade-in{
+    animation: r-fade-in 0.5s;
+}
+
+@keyframes r-fade-in {
+    from{
+        opacity: 0;
+       transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);  
+    }  
+}
+.l-fade-in{
+    animation: l-fade-in 0.5s;
+}
+@keyframes l-fade-in {
+    from{
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+.btn-fade-in-left{
+    animation: btn-fade-in-left 0.5s;
+}
+@keyframes btn-fade-in-left {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.img-fade-in-top{
+    animation: img-fade-in-top 0.5s;
+}
+@keyframes img-fade-in-top {
+    from{
+        opacity: 0;
+       transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);  
+    }  
 }

@@ -1,0 +1,13 @@
+.breakfast-container{
+    display: flex;
+}
+.menu-card{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top:4rem ;
+}
+.menu-card .card{
+    height: 50vh;
+    /* width: 16vw; */
+}

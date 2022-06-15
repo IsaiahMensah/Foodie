@@ -17,9 +17,9 @@
 .m-logo {
   line-height: 40px;
 }
-.n-left .logo {
-  font-size: 50px;
-  color: orangered;
+.m-logo img {
+  height: 50px;
+  width: 90px;
   margin-left: 4rem;
 }
 .n-name {
@@ -86,7 +86,11 @@
 .nav_active {
   background-color: white;
   transition: 0.3s;
+  /* color: black; */
   position: fixed;
   width: 100%;
   display: flex;
+}
+.nav_active .n-button{
+  color: black;
 }

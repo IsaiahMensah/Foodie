@@ -1,22 +1,26 @@
-import {Routes,Route} from "react-router-dom"
-import './App.css';
-import Navbar from "./componnents/navbar/Navbar"
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./componnents/navbar/Navbar";
 import Homepage from "./componnents/homepage/Homepage";
-import Menupage from "./Pages/menu/Menupage"
-import Aboutpage from "./Pages/aboutpage/Aboutpage" 
-import Blogpage from "./Pages/blogpage/Blogpage"
-import Contactpage from "./Pages/contactpage/Contactpage"
+import Menupage from "./Pages/menu/Menupage";
+import Aboutpage from "./Pages/aboutpage/Aboutpage";
+import Blogpage from "./Pages/blogpage/Blogpage";
+import Contactpage from "./Pages/contactpage/Contactpage";
+import Smallmenu from "./componnents/smallmenu/Smallmenu";
+import Breakfast from "./Pages/Breakfast/Breakfast";
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Homepage/>}/>
-        <Route path="/menupage" element={<Menupage/>}/>
-        <Route path="/aboutpage" element={<Aboutpage/>}/>
-        <Route path="/blogpage" element={<Blogpage/>}/>
-        <Route path="/contactpage" element={<Contactpage/>}/>
+        <Route path="/" element={<Homepage />}>
+          <Route path="bf" element={<Breakfast />} />
+        </Route>
+        <Route path="/menupage" element={<Menupage />} />
+        <Route path="/aboutpage" element={<Aboutpage />} />
+        <Route path="/blogpage" element={<Blogpage />} />
+        <Route path="/contactpage" element={<Contactpage />} />
       </Routes>
     </div>
   );
