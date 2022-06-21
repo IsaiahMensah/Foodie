@@ -4,14 +4,18 @@ import Navbar from "../../componnents/navbar/Navbar";
 import Hero from "../../componnents/hero/hero";
 import Offers from "../../componnents/best offers/Offer";
 import Smallmenu from "../smallmenu/Smallmenu";
+import Book from "../../componnents/booksection/Book"
+import Testimonial from "../../componnents/Testimonials/Testimonial"
+
 
 function Homepage() {
   return (
-    <div>
+    <div className="homepage">
       <Navbar />
       <Hero />
       <Offers />
-      <section style={{ height: "80vh"  }} className="section">
+      
+      <section style={{ height: "90vh"  }} className="section">
        
           <div className="wrapper">
           <div className="intro">
@@ -56,6 +60,9 @@ function Homepage() {
         </div>
         </div>
       </section>
+      <Book/>
+      <Testimonial/>
+     
     </div>
   );
 }

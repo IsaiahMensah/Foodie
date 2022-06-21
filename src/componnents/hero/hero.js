@@ -13,7 +13,7 @@ function Hero(params) {
              <div className="h-left " >
                  <div className='text-left l-fade-in'>
                  <h1 data-animation="fadeInUp" data-delay=".2s" >Meet,Eat & Enjoy The True Taste<strong>.</strong></h1>
-                <p>Making Reservations At Delicious Restaurants is East and takes just a couple of minutes.</p>
+                <p>Making Reservations At Delicious Restaurants<br/> is East and takes just a couple of minutes.</p>
                 <div className='h-btn btn-fade-in-left'>
                     <div className='menu-btn '>
                     <button  className=''>Our Menu</button>

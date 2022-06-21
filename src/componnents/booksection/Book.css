@@ -1,0 +1,124 @@
+.book-container{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    /* position: relative; */
+}
+.l-col{
+    flex: 1;
+    display: flex;
+}
+.r-col{
+    flex: 1;
+    display: flex;
+}
+.l-col-image{
+    margin: 5rem 2rem  5rem 10rem;
+}
+.l-col-image img{
+    width: 100%;
+    height: 100%;
+}
+.r-col-text{
+    margin: 5rem 12rem 5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* position: absolute; */
+}
+.r-col-head h1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.r-col-head p{
+    font-size: 16px;
+    color: rgb(2, 2, 2);
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+.input-text{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 4px;
+   border: none;
+}
+.input-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selector{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 34px;
+    border: none;
+    box-shadow: 3px 0 6px  rgba(0,0,0,0.5);
+}
+select{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    height: 10rem;
+    box-shadow: 3px 3px 6px  rgba(0,0,0,0.5);
+}
+input{
+    margin-top: 1rem;
+    box-shadow: 3px 0 6px  rgba(0,0,0,0.5);
+}
+textarea{
+    margin-top: 1rem;
+    border: none;
+    box-shadow: 3px 0 6px  rgba(0,0,0,0.5);
+}
+.book-button{
+    margin-top: 1rem;
+
+}
+.book-button .sub-btn{
+    background-color: orangered;
+    width: 25.2rem;
+    height: 2rem;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+.text-area{
+    margin-bottom: 4rem;
+}
+
+
+.fadein-right{
+    animation: fadein-right 0.2s;
+}
+
+@keyframes fadein-right {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        
+    }
+}
+
+.fadein-left{
+    animation: fadein-left 0.2s;
+}
+
+@keyframes fadein-left {
+    from{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        
+    }
+}
+
+
+

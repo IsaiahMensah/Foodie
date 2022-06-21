@@ -5,6 +5,7 @@
     border: 0;
     background-color:whitesmoke;
     
+    
 }
 .card-wrapper{
     display: flex;
@@ -26,3 +27,11 @@
     font-weight: 600;
     padding-bottom: 5rem;
 }
+/* .offers img{
+    height: 200px;
+    width: 100px;
+    /* margin-bottom: 7rem; 
+    padding-left: 40rem;
+    /* padding-top: 40rem; 
+   
+} */

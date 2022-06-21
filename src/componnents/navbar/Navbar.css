@@ -56,6 +56,7 @@
   cursor: pointer;
   color: orangered;
   text-decoration: underline 5px orangered;
+
 } 
 .n-list ul li:active {
   text-decoration: underline 5px orangered;
@@ -84,12 +85,13 @@
  background-color: blue;
 } */
 .nav_active {
-  background-color: white;
+  background-color: rgb(194, 153, 133);
   transition: 0.3s;
   /* color: black; */
   position: fixed;
   width: 100%;
   display: flex;
+  z-index: 1;
 }
 .nav_active .n-button{
   color: black;
