@@ -17,7 +17,7 @@ function Offer (){
             <div className='card-wrapper'>
                 
             <div className='card-temp'>
-           <Card/>
+           <Card />
            <Card/>
            <Card/>
            </div>

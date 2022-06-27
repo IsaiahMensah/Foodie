@@ -91,7 +91,7 @@
   position: fixed;
   width: 100%;
   display: flex;
-  z-index: 1;
+  z-index: 99;
 }
 .nav_active .n-button{
   color: black;
